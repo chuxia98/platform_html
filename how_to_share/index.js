@@ -14,10 +14,10 @@ function onLoadSuccess() {
     const maps = new Map();
     if (currentLanguage().startsWith("zh")) {
         console.log("language zh");
-        maps.set("step1", "1. 打开页面");
-        maps.set("step2", "2. 打开要求");
-        maps.set("step3", "3. 点击按钮");
-        maps.set("step4", "4. 打开分享");
+        maps.set("step1", "1. 打开 CoinMaster App");
+        maps.set("step2", "2. 打开邀请页面");
+        maps.set("step3", "3. 点击邀请按钮");
+        maps.set("step4", "4. 点击 Spin Link 去分享");
     } else {
         console.log("language en");
         // maps.set("step1", "1. Open the CM Game APP");
